@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("backs.avif") center/cover no-repeat;
+}
+h1{
+    color: rgb(211, 19, 5);
+    padding: 5px;
+}
+p{
+    color: rgb(226, 96, 9);
+    padding: 5px;
+}
+.splashcontent{
+    background-color: rgb(9, 228, 155);
+    border-radius: 50px;
+    height: 50vh;
+    width: 80vh;
+    padding: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: rgb(212, 124, 9);
+    border-style: double;
+    color: rgb(3, 13, 143);
+    border-radius: 5px;
+    text-decoration: none;
+    display:inline-block;
+    margin:5px;
+    padding: 10px;
+    cursor: pointer;
+}
